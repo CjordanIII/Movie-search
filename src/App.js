@@ -9,8 +9,8 @@ import './App.css';
 
 function App() {
   // =====apikey=====
-  const apiKey = "cf59d2b8"
-
+  const apiKey = process.env.REACT_APP_MOVIE0API_KEY
+  
   // State to hold movie data
   const [movie,setMovie]=useState(null)
   
